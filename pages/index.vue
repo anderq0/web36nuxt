@@ -8,7 +8,7 @@
 </template>
 
 <style>
-body{
+/* body{
   background-color: azure;
-}
+} */
 </style>
