@@ -1,13 +1,147 @@
-/* body {
-  background-color: rgb(17, 23, 77);
-  color: rgb(218, 224, 217);
-} */
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&family=Mochiy+Pop+One&display=swap');
 
-/* a {
-  text-decoration: none;
-  color: rgb(0 220 130)
+.flex{
+  display: flex;
+}
+.rainbow,
+.star{
+  width: 190px;
+  height: 210px;
+}
+.upperLayer{
+  align-items: flex-start;
+}
+.menu{
+  align-items: flex-end;
+  gap: 100px;
+}
+.dog{
+  height: 200px;
+  width: 200px;
+}
+.cat{
+  height: 230px;
+  width: 190px;
+}
+.login-container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-a:hover {
-  color: rgb(122, 155, 141)
-} */
+.title-container {
+  text-align: center;
+  margin-bottom: -10px;
+  color: #4a4a4a;
+}
+
+.login-title {
+  font-family: "Mochiy Pop One";
+  background: linear-gradient(to bottom, #FDF9EF 35%, #EADBC5 62%, #DAC4AB 81%, #8A7154 94%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 60px;
+  text-shadow: 4px 1px 7px rgba(0, 0, 0, 0.11);
+  margin: 0;
+}
+
+.sub-title {
+  font-family: "Mochiy Pop One";
+  background: linear-gradient(to bottom, #FDF9EF 35%, #EADBC5 62%, #DAC4AB 81%, #8A7154 94%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  text-shadow: 4px 1px 7px rgba(0, 0, 0, 0.11);
+  margin-top: -10px;
+}
+
+.login-card {
+  background: linear-gradient(180deg, #f7f1e3 0%, #e9e0cf 34.51%, #d1baa0 100%), #e6dbc8;
+  box-shadow:2px 12px 20px 10px rgb(0 0 0 / 39%);
+  padding: 40px 20px;
+  border-radius: 100px;
+  text-align: center;
+  width: 700px;
+  height: 500px;
+}
+
+.input-group {
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  margin: 20px 0 20px;
+}
+
+.input-field {
+  flex: 1;
+}
+
+.input-label {
+  font-family: "Kirang Haerang";
+  font-size: 40px;
+  color: #40527b;
+  margin-bottom: 10px;
+  display: block;
+  font-weight: bold;
+}
+
+.input-box {
+  padding: 25px;
+  border-radius: 90px;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: inset 0px 4px 8px rgba(193, 118, 32, 0.581),
+    0px 6px 12px rgba(193, 118, 32, 0.581);
+  outline: none;
+  transition: box-shadow 0.2s ease;
+}
+
+.input-box:focus {
+  box-shadow: inset 0px 4px 8px rgb(238, 1, 1), 0px 6px 12px rgba(255, 0, 0, 0.15);
+}
+
+.signup-prompt {
+  font-family: "Kirang Haerang";
+  color: #40527b;
+  font-size: 40px;
+  margin: 35px 0 35px;
+}
+
+.btn {
+  font-family: "Kirang Haerang";
+  box-shadow: 0px 4px 5.5px 5px rgba(30, 30, 30, 0.42);
+  color: #ffffff;
+  padding: 20px;
+  text-transform: uppercase;
+  border-radius: 90px;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  font-weight: bold;
+  transition: 0.4s ease;
+  font-size: 30px;
+}
+.btn:hover{
+  background: #40527b;
+}
+
+.enter-button {
+  background: linear-gradient(180deg, #ff95a2 0%, #f26667 100%);
+  margin-top: 35px;
+}
+
+.create-button {
+  background: linear-gradient(90deg, #6bcdc9 48.01%, #f4b32f 61.01%);
+}
+
+body {
+  background: linear-gradient(#73aab7, #88bbb8 20.01%, #a3c9a5 44.54%, #eccd83 74.79%, #83894e 84.03%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* https://webcademy.ru/blog/739/?ysclid=m2uqiokt1y796580607 */

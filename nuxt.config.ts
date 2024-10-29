@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   vite:{
     base: '/web36nuxt/'
   },
-  nitro:{
-    plugins: ['plugins/extend-html.ts']
-  }
+  // nitro:{
+  //   plugins: ['plugins/extend-html.ts']
+  // }
 })
