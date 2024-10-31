@@ -16,13 +16,13 @@
             </div>
             <div class="input-field">
               <label class="input-label">Password</label>
-              <input type="password" class="input-box" />
+              <input type="password" class="input-box" autocomplete="on"/>
             </div>
           </div>
-          <button class="btn enter-button">Enter</button>
+          <button @click="btnClick" class="btn enter-button">Enter</button>
           <p class="signup-prompt">Don’t have a pet yet?</p>
-          <button class="btn create-button">Create</button>
-        </div>
+          <button  @click="btnClick" class="btn create-button">Create</button>
+        </div >
       </div>
       <img class="cat" src="public/menuPics/cringoviyCat.png" alt="">
     </div>
@@ -30,8 +30,18 @@
   </div>
 
 </template>
+<script setup lang="ts">
+import { ref } from 'vue';
+const route = useRoute()
 
+const btnClick = () =>{
+  navigateTo('/creator')
+}
+
+
+</script>
 <style>
+
 </style>
 
 

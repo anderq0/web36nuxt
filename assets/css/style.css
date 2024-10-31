@@ -1,28 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&family=Mochiy+Pop+One&display=swap');
 
-.flex{
+.flex {
   display: flex;
 }
+
 .rainbow,
-.star{
+.star {
   width: 190px;
   height: 210px;
+  margin-right: 100px;
+  margin-top: -60px;
 }
-.upperLayer{
+
+
+.upperLayer {
   align-items: flex-start;
 }
-.menu{
+
+.menu {
   align-items: flex-end;
   gap: 100px;
 }
-.dog{
+
+.dog {
   height: 200px;
   width: 200px;
 }
-.cat{
+
+.cat {
   height: 230px;
   width: 190px;
 }
+
 .login-container {
   flex-direction: column;
   justify-content: center;
@@ -57,7 +66,7 @@
 
 .login-card {
   background: linear-gradient(180deg, #f7f1e3 0%, #e9e0cf 34.51%, #d1baa0 100%), #e6dbc8;
-  box-shadow:2px 12px 20px 10px rgb(0 0 0 / 39%);
+  box-shadow: 2px 12px 20px 10px rgb(0 0 0 / 39%);
   padding: 40px 20px;
   border-radius: 100px;
   text-align: center;
@@ -124,7 +133,8 @@
   transition: 0.4s ease;
   font-size: 30px;
 }
-.btn:hover{
+
+.btn:hover {
   background: #40527b;
 }
 
@@ -144,4 +154,9 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.crbg {
+  background: rgb(12, 19, 19);
+}
+
 /* https://webcademy.ru/blog/739/?ysclid=m2uqiokt1y796580607 */
