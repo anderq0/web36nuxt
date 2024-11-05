@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geo:ital@0;1&family=Kirang+Haerang&family=Mochiy+Pop+One&display=swap');
 
 .flex {
   display: flex;
@@ -156,7 +156,10 @@ body {
 }
 
 .crbg {
-  background: rgb(12, 19, 19);
+  background: rgb(235, 227, 205);
+}
+.pthsbg {
+  background:linear-gradient(#B9E4EB, #9fc16b)
 }
 
 /* https://webcademy.ru/blog/739/?ysclid=m2uqiokt1y796580607 */

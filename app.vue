@@ -3,29 +3,22 @@
     <NuxtLink to="/">home </NuxtLink>
     <NuxtLink to="/about"> about</NuxtLink>
   </nav> -->
-  <div>
-    <!-- <NuxtLayout> -->
-      <NuxtPage />
-    <!-- </NuxtLayout> -->
-  </div>
+  <!-- <NuxtLayout> -->
+  <NuxtPage />
+  <!-- </NuxtLayout> -->
 </template>
 
 <script setup lang="ts">
-const router = useRoute()
 
 const setbg = (path:string)=>{
+  console.log(path)
   if (path=='/') {
-    document.body.className = ''
   } else if (path=='/creator') {
     document.body.className = 'crbg'
-  } else {
-    document.body.className = ''
+  } else if(path=='/pethouse'){
+    document.body.className = 'pthsbg'
   }
 }
-
-watch(()=>router.path,(newval)=>{
-  setbg(newval)
-})
 
 </script>
 
