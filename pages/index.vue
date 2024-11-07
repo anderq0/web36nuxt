@@ -39,21 +39,25 @@ const route = useRoute()
 const pass = defineModel("pass")
 const login = defineModel("login")
 
-onMounted(()=>{
-  document.body.className = ''
+// onMounted(()=>{
+//   document.body.className = ''
+// })
+useHead({
+    bodyAttrs: {class:'ind'}
 })
+
 
 
 const btnClickCreate = () =>{
   navigateTo('/creator')
 }
 const btnClickEnter = () =>{
-  // let isReal = logsPasw.find(e=>e.login === login.value && e.pass === pass.value)
-  // if(isReal){
+  let isReal = logsPasw.find(e=>e.login === login.value && e.pass === pass.value)
+  if(isReal){
     navigateTo('/pethouse')
-  // }else{
-  //   console.log('error')
-  // }
+  }else{
+    console.log('error')
+  }
 }
 
 const logsPasw = [
