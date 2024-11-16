@@ -6,8 +6,12 @@ const route = useRoute()
 const btnClick = () => {
     navigateTo('/creator')
 }
-onMounted(()=>{
-    document.body.className = 'pthsbg'
+// onMounted(()=>{
+//     document.body.className = 'pthsbg'
+// })
+
+useHead({
+    bodyAttrs: {class:'pthsbg'}
 })
 
 

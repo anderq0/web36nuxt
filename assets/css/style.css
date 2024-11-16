@@ -150,16 +150,19 @@
 body {
   background: linear-gradient(#73aab7, #88bbb8 20.01%, #a3c9a5 44.54%, #eccd83 74.79%, #83894e 84.03%);
   height: 100vh;
+}
+.ind{
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .crbg {
-  background: rgb(235, 227, 205);
+  background:linear-gradient(#f4f4f4, #9d5a2e);
 }
+
 .pthsbg {
-  background:linear-gradient(#B9E4EB, #9fc16b)
+  background: linear-gradient(#9fc16b,#B9E4EB)
 }
+
 
 /* https://webcademy.ru/blog/739/?ysclid=m2uqiokt1y796580607 */
