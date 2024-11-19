@@ -303,4 +303,5 @@ const btnClick = () => {
 </style>
 <!-- https://ide.geeksforgeeks.org/ide/online-html-editor?id=6b061782-e18a-45b8-8bf4-f7b4345d674e -->
 <!-- https://vue3-signature-pad.vercel.app/ -->
+
 <!-- https://next.jqueryscript.net/nuxt/signature-pad/ -->
