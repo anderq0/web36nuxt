@@ -1,6 +1,5 @@
 <template>
   <main class="temp1">
-    
     <div class="flex upperLayer">
       <img class="rainbow" src="public/menuPics/rainbow.png" alt="">
       <div class="flex menu">
@@ -31,26 +30,20 @@
       <img class="star" src="public/menuPics/star.png" alt="">
     </div>
   </main>
-
 </template>
+
 <script setup lang="ts">
-import { ref } from 'vue';
-const route = useRoute()
 const pass = defineModel("pass")
 const login = defineModel("login")
 
-// onMounted(()=>{
-//   document.body.className = ''
-// })
 useHead({
     bodyAttrs: {class:'ind'}
 })
 
-
-
 const btnClickCreate = () =>{
   navigateTo('/creator')
 }
+
 const btnClickEnter = () =>{
   let isReal = logsPasw.find(e=>e.login === login.value && e.pass === pass.value)
   if(isReal){
