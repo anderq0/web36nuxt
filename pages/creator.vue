@@ -33,8 +33,8 @@
             id="brush-width"
             v-model="options.maxWidth"
             type="range"
-            :min="1"
-            :max="10"
+            :min=1
+            :max=10
           />
           <div class="instruments">
             <button :class="{ 'pulse': isPremadePetActive }" class="tool-btn pastel-btn" @click="handleClearCanvas">Erase</button>
